@@ -1,0 +1,34 @@
+04ffff001d01043454696d6520666c696573206c696b6520616e206172726f772e20467275697420666c696573206c696b6520612062616e616e612e
+merkle hash: 52b2455696516c14fde6fb8bf13891f34a49b339b99aa863942e5cd54db71fc1
+pszTimestamp: Time flies like an arrow. Fruit flies like a banana.
+pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
+time: 1522218967
+bits: 0x1e0ffff0
+nonce: 2566786
+genesis hash: 5107ab33abe185e73c1dc31f3b7c025bbb446205f7ad989de057ac5f5932ba70
+
+node@node-server:~/zacacoin/GenesisH0$ python genesis.py -a X11 -z "Trump Says Second Amendment ‘Will Never Be Repealed’" -v 40
+04ffff001d0104385472756d702053617973205365636f6e6420416d656e646d656e7420e2809857696c6c204e657665722042652052657065616c6564e28099
+algorithm: X11
+merkle hash: febc0d92c86c12fd2dd72c37a939aa070057213cc2c074701ce6c54fbf2420e3
+pszTimestamp: Trump Says Second Amendment ‘Will Never Be Repealed’
+pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
+time: 1522276316
+bits: 0x1e0ffff0
+Searching for genesis hash..
+genesis hash found!
+nonce: 657798
+genesis hash: 0000066f96b60e745c88ec1e3536b499c713fc21fff31527868b8f20de1bfa39
+node@node-server:~/zacacoin/GenesisH0$ python genesis.py -a scrypt -z "Trump Says Second Amendment ‘Will Never Be Repealed’" -v 50
+04ffff001d0104385472756d702053617973205365636f6e6420416d656e646d656e7420e2809857696c6c204e657665722042652052657065616c6564e28099
+algorithm: scrypt
+merkle hash: 1683320c2d1469e4d08c550212a806bcdd7ed6717fbfd4a9dd4b8442ca7993f4
+pszTimestamp: Trump Says Second Amendment ‘Will Never Be Repealed’
+pubkey: 04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f
+time: 1522276436
+bits: 0x1e0ffff0
+Searching for genesis hash..
+2313.0 hash/s, estimate: 515.8 hgenesis hash found!
+nonce: 1276567
+genesis hash: e233f2806feac2ffca23dda18ead69f25247d5cb9737b9e42336d56b6876f5f3
+
