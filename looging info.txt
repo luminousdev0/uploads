@@ -1,0 +1,2 @@
+logging.info("Genesis Block Hash " + consensus.hashGenesisBlock);
+logging.info("Compared to Hash " + uint256S("0x326bcc5731fba75254090bcd460d2e514c0ba86f91f7ef30ba48ff8a32e99c5e"));
